@@ -1,0 +1,11 @@
+{
+  "name": "testpractico_finamiga",
+  "version": "1.0.0",
+  "description": "Test practico Finamiga",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Franklin Leandro Velasco",
+  "license": "ISC"
+}

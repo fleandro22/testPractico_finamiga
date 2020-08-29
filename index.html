@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1">
+	<title>Test Practico Finamiga</title>
+	<link rel="stylesheet" href="src/css/style.css">
+
+</head>
+<body>
+
+	<header class="header">
+		<nav>
+			<ul class="nav-links">
+				<li id="btn_api">
+					
+					<button class="btn" type="button"><span>Rick and Morty API</span></button>
+				</li>
+				<li id="btn_localstorage">
+					
+					<button class="btn" type="button" ><span>Libreta de Contactos</span></button>
+				</li>
+			
+				
+			</ul>
+		</nav>
+
+	</header>
+
+	<main>
+		<div id="cover-spin"></div>
+		<div>
+			<input type="text" name="name" placeholder="Busca el nombre de tu personaje" id="txt_search"/>
+		</div>
+		<section>
+
+			<div class="list" id="list">
+
+				
+			</div>
+		</section>
+
+		<section id="localstorage">
+
+			
+
+				<form id="form-contacts">
+
+					<span>Nombre</span>
+					<input name = "name">
+					<span>Telefono</span>
+					<input name = "phone">
+					<span>Correo</span>
+					<input name = "email">
+
+					<button id="btn-add" type="button">Agregar</button>
+				</form>
+
+				<ul class="list-contacts" id="list-contacts">
+
+					<li>
+						<span>Id</span>
+						<span>Nombres</span>
+						<span>Telefono</span>
+						<span>Correo</span>
+						<span>Editar</span>
+					</li>
+					
+
+				</ul>
+			</div>
+		</section>
+
+	</main>
+
+
+	<script type="module" src="src/js/index.js"></script>
+
+</body>
+</html>
